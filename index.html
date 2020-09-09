@@ -7,41 +7,65 @@
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-
     <main>
         <img src="./ressources/tim-pic.jpg" alt="Tim Berners-Lee picture">
         <h1>Tim Berners-Lee</h1>
         <h2>Inventor of HTML</h2>
         <p>Tim Berners-Lee is the <b>inventor</b> of the Web. In 1989, Tim was working in a computing services section of CERN when he came up with the concept; at the time he had no idea that it would be implemented on such an <b>enormous scale.</b></p>
-        <a href="https://www.compart.com/en/unicode/U+1F308" target="_blank">See for yourself !</a>
+        <a href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">See for yourself</a>
     </main>
 
     <div id="links">
-        <a href="https://www.compart.com/en/unicode/U+1F308"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.compart.com/en/unicode/U+1F308"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://www.compart.com/en/unicode/U+1F308"><i class="fab fa-twitter"></i></a>
+        <ul>
+            <li>
+                <a href="https://www.compart.com/en/unicode/U+1F308">
+                    <i class="fab fa-facebook-f"></i>
+                    <p>Facebook</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.compart.com/en/unicode/U+1F308">
+                    <i class="fab fa-linkedin-in"></i>
+                    <p>Linkedin</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.compart.com/en/unicode/U+1F308">
+                    <i class="fab fa-twitter"></i>
+                    <p>Twitter</p>
+                </a>
+            </li>
+        </ul>
     </div>
 
     <section id="movies">
-        <h2>>His favorite movies</h2>
+        <h2><span id="his">His</span> favorite movies</h2>
         <ul>
             <li>
                 <img src="./ressources/kubrick.jpg" alt="2001: Space Odyssey">
-                <h3>2001 - Space Odyssey</h3>
-                <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.</p>
+                <div class="movie_text">
+                    <h3>2001 - Space Odyssey</h3>
+                    <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.</p>
+                </div>
             </li>
             <li>
                 <img src="./ressources/hulot.jpg" alt="Les Vacances de Monsieur Hulot">
-                <h3>Monsieur Hulot</h3>
-                <p>Monsieur Hulot comes to a beachside hotel gor vacation, where he accidentally (but good-naturedly) causes havoc.</p>
+                <div class="movie_text">
+                    <h3>Monsieur Hulot</h3>
+                    <p>Monsieur Hulot comes to a beachside hotel gor vacation, where he accidentally (but good-naturedly) causes havoc.</p>
+                </div>
             </li>
             <li>
                 <img src="./ressources/alien.jpg" alt="Alien">
-                <h3>Alien</h3>
-                <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
+                <div class="movie_text">
+                    <h3>Alien</h3>
+                    <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
+                </div>
+
             </li>
         </ul>
     </section>
