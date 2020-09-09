@@ -16,10 +16,6 @@ a{
     color: inherit;
 }
 
-/* TEMPORARY */
-
-
-
 /* MAIN */
 
 
@@ -45,7 +41,7 @@ main{
 }
 
 main img{
-    width: 200px;
+    width: 150px;
     height: auto;
     border-radius: 50%;
     border-style: solid;
@@ -59,7 +55,7 @@ h1{
 }
 
 main h2{
-    margin: 2em 5% 1em 5%;
+    margin: 1em 5% 1em 5%;
 }
 
 main a{
